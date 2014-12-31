@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+ android:background="@drawable/back" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Help"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="55dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginLeft="15dp"
+        android:text="In order to win you have to shoot a ball at two balls or more of the same color, try to play smart to make balls unatached fall, beware of the rows that are being added after a number of shots depending on the difficulty.\nYou can see the next ball on the left and the score on the right, every fallen ball adds 5 points to your score, and if a ball sticks you lose 5 points."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

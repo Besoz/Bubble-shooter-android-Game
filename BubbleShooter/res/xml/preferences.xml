@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:background="@drawable/back" >
+    
+    <EditTextPreference
+        android:dialogTitle="Write profile name"
+        android:key="profile_name"
+        android:summary="Create new profile"
+        android:title="Add profile"
+        ></EditTextPreference>
+      
+    <CheckBoxPreference
+        android:defaultValue="true"
+       
+        android:key="sound_control"
+        android:title="@string/sound_control"
+       android:summaryOn="Sound is ON \n(sound is mutted in options menu )"
+          android:summaryOff="Sound is OFF \n(sound is mutted in options menu )"
+        ></CheckBoxPreference>
+        
+
+    <ListPreference
+        android:key="list"
+        android:title="Game difficulty"
+        android:dialogTitle="Choose difficulty level"
+        android:summary="Difficulty levels"
+        android:entries="@array/list"
+        android:entryValues="@array/LValues"
+         ></ListPreference>
+
+</PreferenceScreen>
